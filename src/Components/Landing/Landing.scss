@@ -1,0 +1,86 @@
+@import '../../config.scss';
+
+.landing-body{
+  font-family: $font-stack1;
+}
+
+
+
+//Typography
+
+h1 {
+  font-family: $font-stack2;
+  font-weight: 400;
+  color: #143774;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-weight: 700;
+  color: #1792D2;
+  font-size: .75rem;
+  margin: 0;
+}
+
+//Layout
+
+.container{
+  width: 90%;
+  max-width: 900px;
+  // border: solid blue;
+  margin: 0 auto;
+}
+
+.container-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+header{
+  // text-align: center;
+  background: #F8F8F8;
+  padding: 2em 0;
+}
+
+// Navigation
+nav ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+nav li{
+  margin-left: 2em;
+}
+
+nav a{
+  text-decoration: none;
+  font-weight: 700;
+  color: #707070;
+
+  &:hover,
+  &:focus{
+    color: rgb(59, 59, 59);
+  }
+}
+
+@media(max-width:675px){
+  .container-nav{
+    flex-direction: column;
+  }
+
+  header{
+    text-align: center;
+    padding: .5em 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: .5em 0;
+  }
+}
