@@ -3,24 +3,10 @@ import './Landing.scss';
 
 function Landing() {
   return(
-    <div className='landing-body'>
-      <header>
-        <div className='container container-flex'>
-          <div className='site-title'>
-            <h1>Living The Social Life</h1>
-            <p className='subtitle'>A blog exploring minimalism in life</p>
-          </div>
-          <nav>
-            <ul>
-              <li><a href='#' className='current-page'>Home</a></li>
-              <li><a href='#' className='current-page'>About Me</a></li>
-              <li><a href='#' className='current-page'>Recent Posts</a></li>
-            </ul>
-          </nav>
-        </div>{/* nav container  */}
-      </header>
-
-      <div className='container container-flex'>
+    <div className='landing-body' id='section1'>
+      <h1 className='landing-title'>WELCOME</h1>
+      <div className='container container-flex container-main'>
+        
         <main>
           <article className='article-featured'>
             <h2 className='article-title'>Finding simplicity in life</h2>
@@ -93,11 +79,6 @@ function Landing() {
         </aside>
 
       </div>
-
-      <footer>
-        <p><strong>Living The Simple Life</strong></p>
-        <p>Copyright 2019</p>
-      </footer>
 
     </div>
   )

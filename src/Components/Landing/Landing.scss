@@ -4,6 +4,7 @@
   font-family: $font-stack1;
   font-size: 1.125rem;
   font-weight: 300;
+  text-align: center;
 }
 
 img{
@@ -77,9 +78,20 @@ strong{
 
 //Layout
 
+.landing-title{
+  margin-top: 3.55em;
+  margin-bottom: .5em;
+  font-size: 3.5rem;
+}
+
+.section-titles{
+  margin-bottom: 1em;
+  font-size: 3rem;
+}
+
 .container{
   width: 90%;
-  max-width: 900px;
+  max-width: 1200px;
   // border: solid blue;
   margin: 0 auto;
 }
@@ -95,8 +107,14 @@ header{
   // text-align: center;
   background: #F8F8F8;
   text-align: center;
-  padding: 2em 0;
+  // padding: .5em 0;
+  padding-top: 1.5em;
   margin-bottom: 3em;
+  position: fixed;
+  top: -15px;
+  // z-index: -1;
+  width: 100vw;
+  
 }
 
 // Navigation
@@ -121,6 +139,21 @@ nav a{
 }
 
 @media(min-width: 675px){
+
+  .landing-title{
+    margin-top: 2.55em;
+  }
+  
+  .section-titles{
+    margin-top: 0em;
+    margin-bottom: 1em;
+    font-size: 3rem;
+  }
+
+  header{
+    padding: 2em 0;
+  }
+
   nav ul{
     flex-direction: row;
   }

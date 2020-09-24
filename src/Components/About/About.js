@@ -3,22 +3,8 @@ import './About.scss';
 
 function About() {
   return(
-    <div className='landing-body'>
-      <header>
-        <div className='container container-flex'>
-          <div className='site-title'>
-            <h1>Living The Social Life</h1>
-            <p className='subtitle'>A blog exploring minimalism in life</p>
-          </div>
-          <nav>
-            <ul>
-              <li><a href='#' className='current-page'>Home</a></li>
-              <li><a href='#' className='current-page'>About Me</a></li>
-              <li><a href='#' className='current-page'>Recent Posts</a></li>
-            </ul>
-          </nav>
-        </div>{/* nav container  */}
-      </header>
+    <div className='landing-body' id='section2'>
+      <h1 className='section-titles'>About Me</h1>
 
       <div className='container container-flex'>
         <main>
@@ -65,11 +51,6 @@ function About() {
         </aside>
 
       </div>
-
-      <footer>
-        <p><strong>Living The Simple Life</strong></p>
-        <p>Copyright 2019</p>
-      </footer>
 
     </div>
   )
