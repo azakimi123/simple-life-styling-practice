@@ -5,7 +5,7 @@ function Landing() {
   return(
     <div className='landing-body'>
       <header>
-        <div className='container container-nav'>
+        <div className='container container-flex'>
           <div className='site-title'>
             <h1>Living The Social Life</h1>
             <p className='subtitle'>A blog exploring minimalism in life</p>
@@ -20,13 +20,13 @@ function Landing() {
         </div>{/* nav container  */}
       </header>
 
-      <div className='container'>
+      <div className='container container-flex'>
         <main>
-          <article className='article-feature'>
+          <article className='article-featured'>
             <h2 className='article-title'>Finding simplicity in life</h2>
-            <img src ='' alt=''/>
+            <img className='article-image' src ='https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80' alt='simple desk'/>
             <p className='article-info'>July 23, 2019 | 3 comments</p>
-            <p className='article-body'>Life can get complicated really quickly, but it doesn't have to be! There are many ways to simplify your life, a few of which we've explored in the past. This week we're taking a bit of a approach though, in how you can find simplicity in the life you already living.</p>
+            <p className='article-body'><strong>Life can get complicated really quickly,</strong> but it doesn't have to be! There are many ways to simplify your life, <a>a few of which we've explored in the past.</a> This week we're taking a bit of a approach though, in how you can find simplicity in the life you already living.</p>
             <a className='article-read-more'>continue reading</a>
           </article>
 
@@ -37,7 +37,7 @@ function Landing() {
               <a className='article-read-more'>continue reading</a>
             </div>
             <div className='article-recent-secondary'>
-              <img src ='' alt=''/>
+              <img className='article-image' src ='https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80' alt='dumplings'/>
               <p className='article-info'>July 19, 2019 | 3 comments</p>
             </div>
           </article>
@@ -49,7 +49,7 @@ function Landing() {
               <a className='article-read-more'>continue reading</a>
             </div>
             <div className='article-recent-secondary'>
-              <img src ='' alt=''/>
+              <img className='article-image'  src ='https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80' alt='desk'/>
               <p className='article-info'>July 12, 2019 | 3 comments</p>
             </div>
           </article>
@@ -61,7 +61,7 @@ function Landing() {
               <a className='article-read-more'>continue reading</a>
             </div>
             <div className='article-recent-secondary'>
-              <img src ='' alt=''/>
+              <img className='article-image'  src ='https://images.unsplash.com/photo-1557337996-6785a501a815?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80' alt='desk plant'/>
               <p className='article-info'>July 3, 2019 | 3 comments</p>
             </div>
           </article>
@@ -71,7 +71,7 @@ function Landing() {
 
           <div className='sidebar-widget'>
             <h2 className='widget-title'>About Me</h2>
-            <img src='' alt=''/>
+            <img src='https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80' alt='profile pic'/>
             <p className='widget-body'>I find life better, and I'm happier, when things are nice and simple.</p>
           </div>
 
@@ -79,15 +79,15 @@ function Landing() {
            <h2 className='widget-title'>Recent Posts</h2>
            <div className='widget-recent-posts'>
              <h3 className='widget-recent-posts-title'>Keeping Cooking Simple</h3>
-             <img className='widget-image' src='' alt=''/>
+             <img className='widget-image' src='https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80' alt='dumplings'/>
            </div>
            <div className='widget-recent-posts'>
              <h3 className='widget-recent-posts-title'>Simplicity and Work</h3>
-             <img className='widget-image' src='' alt=''/>
+             <img className='widget-image' src='https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80' alt='desk'/>
            </div>
            <div className='widget-recent-posts'>
              <h3 className='widget-recent-posts-title'>Simple Decorations</h3>
-             <img className='widget-image' src='' alt=''/>
+             <img className='widget-image' src='https://images.unsplash.com/photo-1557337996-6785a501a815?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80' alt='desk plant'/>
            </div>
           </div>
         </aside>
@@ -95,8 +95,8 @@ function Landing() {
       </div>
 
       <footer>
-        <p></p>
-        <p></p>
+        <p><strong>Living The Simple Life</strong></p>
+        <p>Copyright 2019</p>
       </footer>
 
     </div>
