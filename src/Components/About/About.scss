@@ -1,0 +1,27 @@
+@import '../../config.scss';
+main{
+  // border: blue solid 2px;
+  margin-bottom: 3em;
+
+  img{
+    margin-bottom: 2em;
+  }
+
+  h2{
+    font-size: 1.4rem;
+  }
+  
+  h3{
+    font-size: 1.25rem;
+    color: #1792D2;
+  }
+  
+  p{
+    color: #707070;
+    font-size: 1rem;
+  }
+  
+  strong{
+    font-weight: 700;
+  }
+}

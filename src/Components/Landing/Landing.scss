@@ -104,11 +104,9 @@ nav ul{
   list-style: none;
   display: flex;
   padding: 0;
+  flex-direction: column;
   justify-content: center;
-}
-
-nav li{
-  margin-left: 2em;
+  // align-items: center;
 }
 
 nav a{
@@ -119,6 +117,16 @@ nav a{
   &:hover,
   &:focus{
     color: rgb(59, 59, 59);
+  }
+}
+
+@media(min-width: 675px){
+  nav ul{
+    flex-direction: row;
+  }
+
+  nav li{
+    margin-left: 2em;
   }
 }
 
